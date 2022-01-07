@@ -12,7 +12,7 @@ templateUrl: './servers.component.html',
 export class ServersComponent implements OnInit {
     allowNewServer = false;
     serverCreationStatus = 'No server was created!';
-    serverName='';
+    serverName='TestServer';
   constructor() { 
 
     setTimeout(()=>{
